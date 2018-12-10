@@ -1,4 +1,4 @@
-FROM golang
+FROM php
 MAINTAINER dingdayu <614422099@qq.com>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -yqq \
