@@ -1,4 +1,6 @@
-FROM php
+ARG PHP_VERSION=7
+
+FROM php:${PHP_VERSION}
 LABEL MAINTAINER="dingdayu <614422099@qq.com>"
 
 ENV LANG=en_US.UTF-8 \
